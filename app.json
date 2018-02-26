@@ -1,0 +1,17 @@
+{
+  "name": "Racket server example",
+  "keywords": [
+    "racket"
+  ],
+  "repository": "https://github.com/almonk/racket-sample-heroku-app",
+  "env": {
+    "RACKET_VERSION": {
+      "value": "current"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/almonk/heroku-buildpack-racket"
+    }
+  ]
+}
